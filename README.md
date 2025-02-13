@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles related to the CMD instruction when running unit tests.  The original Dockerfile incorrectly sets the working directory, causing the test runner to fail.  The solution demonstrates the correct way to specify the CMD instruction to ensure the tests run as expected.
